@@ -4,7 +4,11 @@
   "description": "Affinipay Coding Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "add-minutes"
+  },
+  "bin": {
+    "add-minutes": "./index.js"
   },
   "author": "@shanebarringer",
   "devDependencies": {
@@ -14,5 +18,7 @@
     "jest": "^24.9.0",
     "prettier": "^1.19.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "yargs": "^14.2.0"
+  }
 }
